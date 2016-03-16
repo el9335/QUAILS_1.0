@@ -1,6 +1,6 @@
-======
-Quails
-======
+===================================
+Quails Question Answering Framework
+===================================
 
 .. QUAILS documentation master file, created by
    sphinx-quickstart on Tue Mar 15 17:33:22 2016.
