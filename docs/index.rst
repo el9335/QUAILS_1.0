@@ -7,7 +7,7 @@
 .. figure:: images/quails.gif 
    :align:  left
 
-
+|
 | QUAils Documentation
 ==================================
 Welcome to the documentation pages for the QUAils Question Answering framework.  This project is meant to provide a basis for the research and implementation of a cognitive domain-specific question answering system. 
@@ -15,7 +15,7 @@ Welcome to the documentation pages for the QUAils Question Answering framework. 
 .. toctree::
    :maxdepth: 2
 
-* :ref:`Introduction`
+* :ref:`Introduction<http://www.google.com>`
 * :ref:`Architecture Overview`
 * :ref:`Installation`
 * :ref:`QUAils Objects`
