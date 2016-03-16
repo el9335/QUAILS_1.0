@@ -3,17 +3,19 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Quails Documentation
+QUAils Documentation
 ==================================
-Welcome to the documentation for the Quails Question Answering framework.  This project is meant to provide a basis for research of a cognitive domain-specific question answering system. 
+Welcome to the documentation pages for the QUAils Question Answering framework.  This project is meant to provide a basis for research of a cognitive domain-specific question answering system. 
+
+* Introduction
+* Architecture Overview
+* Installation
+* QUAils Objects
+* Adding a new NLP service
+* Next steps
 
 .. toctree::
    :maxdepth: 2
-
-
-
-Indices and tables
-==================
 
 * :ref:`genindex`
 * :ref:`modindex`
