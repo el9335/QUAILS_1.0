@@ -6,7 +6,7 @@ Architecture Overview
 
 This page provides multiple views of the Quails Question Answering Framework.  
 
-.. figure:: QuailsContext.png
+.. figure:: images/QuailsContext.png
 	:align: center
 	:alt: Context View
 	
