@@ -1,5 +1,5 @@
 ======
-QUAils
+Quails
 ======
 
 .. QUAILS documentation master file, created by
@@ -12,7 +12,7 @@ QUAils
    :align:  left
 
 |
-| QUAils Documentation
+| Quails Documentation
 ==================================
 Welcome to the documentation pages for the QUAils Question Answering framework.  This project is meant to provide a basis for the research and implementation of a cognitive domain-specific question answering system. 
 
