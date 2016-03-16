@@ -5,9 +5,8 @@
 
 Quails Documentation
 ==================================
-These pages contain the documentation for the Quails Question Answering framework.  
+Welcome to the documentation for the Quails Question Answering framework.  This project is meant to provide a basis for research of a cognitive domain-specific question answering system. 
 
-Quails is a modular question answering framework that will serve as a testbed for the author's dissertation research.
 .. toctree::
    :maxdepth: 2
 
