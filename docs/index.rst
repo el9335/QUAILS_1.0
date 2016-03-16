@@ -19,7 +19,7 @@ Welcome to the documentation pages for the QUAils Question Answering framework. 
 .. toctree::
    :maxdepth: 2
 
-* :ref:`intro`
+* :ref:`Introduction <intro>`
 * :ref:`Architecture Overview`
 * :ref:`Installation`
 * :ref:`QUAils Objects`
