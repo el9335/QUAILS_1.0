@@ -12,15 +12,16 @@
 ==================================
 Welcome to the documentation pages for the QUAils Question Answering framework.  This project is meant to provide a basis for the research and implementation of a cognitive domain-specific question answering system. 
 
+.. toctree::
+   :maxdepth: 2
+
 * :ref:`Introduction`
 * :ref:`Architecture Overview`
 * :ref:`Installation`
 * :ref:`QUAils Objects`
 * :ref:`Adding a new NLP service`
 * :ref:`Next steps`
-
-.. toctree::
-   :maxdepth: 2
+* :ref:`About`
 
 
 
