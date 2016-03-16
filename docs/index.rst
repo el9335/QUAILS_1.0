@@ -3,11 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-QUAILS Documentation
+Quails Documentation
 ==================================
+These pages contain the documentation for the Quails Question Answering framework.  
 
-Contents:
-
+Quails is a modular question answering framework that will serve as a testbed for the author's dissertation research.
 .. toctree::
    :maxdepth: 2
 
