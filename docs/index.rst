@@ -20,12 +20,12 @@ Welcome to the documentation pages for the QUAils Question Answering framework. 
    :maxdepth: 2
 
 * :ref:`Introduction <intro>`
-* :ref:`Architecture Overview`
-* :ref:`Installation`
-* :ref:`QUAils Objects`
-* :ref:`Adding a new NLP service`
-* :ref:`Next steps`
-* :ref:`About`
+* :ref:`Architecture Overview <overview>`
+* :ref:`Installation <install>`
+* :ref:`Quails Objects <objects>`
+* :ref:`Adding a New NLP Service <newservice>`
+* :ref:`Next Steps <nextsteps>`
+* :ref:`About the Author <author>`
 
 | 
 
