@@ -17,7 +17,7 @@ Quails Constants
 
 .. figure:: images/QuailsConstants.png
 	:align: center
-	:scale: 75
+	:scale: 50
 
 NLP Data Structures
 -------------------
@@ -27,7 +27,7 @@ NLP Data Structures
 
 .. figure:: images/QuailsNLPInputTypes.png
 	:align: center
-	:scale: 75
+	:scale: 50
 
 Classification Data Structure
 -----------------------------
