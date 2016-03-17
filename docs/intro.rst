@@ -38,4 +38,4 @@ The second component is an interface program which receives a natural language q
 Quails Architecture
 ===================
 
-Multiple views of the Quails system architecture can be seen :ref:`here`.
+Multiple views of the Quails system architecture can be seen :ref:`here <overview>`.
