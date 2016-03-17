@@ -6,7 +6,7 @@ Introduction
 
 Quails is a modular question answering framework that is meant to provide a testbed for the author's dissertation work.  It has been designed to be fully customizable at every step of a user specified question answering pipeline.
 
-A high level example of a question answering pipeline is as follows:
+A high level example of a question answering pipeline, represented as a list, is as follows:
 
 1.  Receive a natural language question from a user.
 2.  Extract natural language features from the question.
