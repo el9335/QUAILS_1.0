@@ -13,26 +13,19 @@ Introduction
 
 Quails is a modular question answering framework that is meant to provide a testbed for the author's dissertation work.  It has been designed to be fully customizable at every step of a user specified question answering pipeline.
 
-Question Answering Pipeline
-===========================
+A high level example of a question answering pipeline, represented as a list, is as follows:
 
-Each step of the Quails question answering pipeline is meant to be customizable by the user.  This means that you can choose, for example, which tools to use for the individual Natural Language Processing steps or which classification algorithms the system will use to predict the answer type of the question.  The Quails pipeline is visualized below.  Multiple aspects of each component can be configured by the user prior to asking a question (See :ref:`ask`).
-
-.. figure:: images/QuailsPipeline.png
-	:align: center
-	:alt: Quails pipeline
-	:scale: 65
-
-	Quails question answering pipeline
-
-Components
-==========
+1.  Receive a natural language question from a user.
+2.  Extract natural language features from the question.
+3.  Determine the type of answer required by the question using one or more classification algorithms.
+4.  Construct a logical representation of the question using information gathered in the previous steps.
+5.  Use the logical representation to build a query to search for documents that may contain information relevant to the question.
+6.  Search the documents for possible answers.
+7.  Rate the answers based on how likely they are to answer the question.
+8.  Return the answers and their scores to the user. 
 
 The system is comprised of two primary parts. The first component is a Flask server providing question answering pipeline services such as NLP, classification, text indexing, answer extraction, and answer scoring.  
 
 The second component is an interface program which receives a natural language question from the user and acts as a controller for the question answering pipeline in order to produce an answer.
 
-Quails Architecture
-===================
 
-Multiple views of the Quails system architecture can be seen :ref:`here <overview>`.
