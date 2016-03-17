@@ -6,7 +6,10 @@ Installation
 
 This page will guide you through installing the Quails dependencies on a unix-based operating system.  Quails currently only supports python 2.7.6.  The next iteration will automatically install all dependencies.
 
-These instructions were recorded over the process of development, but have not been tested on a fresh system.  If you run into any errors during the process, please send me an email at ``leblanc at drexel dot edu``.
+These steps were recorded over the process of development, but have not been tested on a fresh system.  If you run into any errors during the process, please send me an email at ``leblanc at drexel dot edu``.
+
+Steps to install dependencies
+=============================
 
 1.  Install pip
 ::
