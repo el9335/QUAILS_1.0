@@ -4,4 +4,4 @@
 Asking a Question
 =================
 
-This section demonstrates how to configure and run Quails.
+This section demonstrates how to configure Quails and ask a question.
