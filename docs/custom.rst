@@ -51,12 +51,12 @@ The Li classes are encoded in the ``classes`` dictionary, where the coarse grain
 
 .. figure:: images/QuailsLiClasses.png
 	:align: center
-	:scale: 75
+	:scale: 50
 
 Quails Objects
 --------------
 
-Quails objects are special objects used primarily by the pipeline interface. ``run.py``.
+Quails objects are special objects used primarily by the pipeline interface. ``run.py``.  To view the definitions of the objects, please look in ``quails.py``.
 
 Question
 ^^^^^^^^
@@ -67,7 +67,7 @@ The Question class is a representation of the question.  The class is defined in
 QuailsConfig
 ^^^^^^^^^^^^
 
-The QuailsConfig class configures the question answering pipeline by reading the user's prefences from ``config/configquails``.  
+The QuailsConfig class configures the question answering pipeline by reading the user's prefences from ``config/configquails``.  It inherits methods from the python module ``configparser``.
 
 How to add NLP Services to the Quails Server
 ============================================
