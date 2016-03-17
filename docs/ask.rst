@@ -33,4 +33,4 @@ Example usage is shown in the following figure.
 
 	Quails sample question and answer 
 
-Quails currently does not support batch processing of questions, but will be needed for experiments and so will be included in a subsequent iteration of the framework.
+Quails currently does not support batch processing of questions, but will be needed for experiments and so will be included in a subsequent version of the framework.
