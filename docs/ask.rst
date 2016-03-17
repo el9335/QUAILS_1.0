@@ -21,7 +21,7 @@ Asking a Question
 
 From the main Quails directory (containing ``run.py``), ask your question following the usage guidelines:
 
-.. python run.py <string containing a question>
+:: python run.py <string containing a question>
 
 Example usage is shown in the following figure.
 
