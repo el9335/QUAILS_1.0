@@ -34,9 +34,9 @@ The ``step_input`` structure specifies the input type required by each of the av
 ::
 
 	# the server calls the function in a different manner...
-	# this is an example of how we can use previous nlp results
-	# in order to obtain new results
-	ner(nlp_features['pos'])
+	# this is some funky pseudocode to get the point across
+
+	question.nlp_features['ner'] = ner(question.nlp_features['pos'])
 
 .. figure:: images/QuailsNLPInputTypes.png
 	:align: center
@@ -45,19 +45,29 @@ The ``step_input`` structure specifies the input type required by each of the av
 Classification Data Structure
 -----------------------------
 
+Quails attempts to predict the answer type of the input question.  For example, if the question is "How fast is the fastest car?", Quails determines that the answer required is a number, more specifically a speed.  See :ref:`this page <http://cogcomp.cs.illinois.edu/Data/QA/QC>` for more information on the Li taxonomy of classification.
+
+The Li classes are encoded in the ``classes`` dictionary, where the coarse grained class is the key, and the values are each of the fine grained classes that fall under the key.
+
 .. figure:: images/QuailsLiClasses.png
 	:align: center
+	:scale: 75
 
 Quails Objects
 --------------
 
-
+Quails objects are special objects used primarily by the pipeline interface. ``run.py``.
 
 Question
 ^^^^^^^^
 
+The Question class is a representation of the question.  The class is defined in ``quails.py`` and contains a number of question-specific data structures and methods.  The data structures hold information about the question, gathered during the question analysis phase, as well as candidate answers and their scores.
+
+
 QuailsConfig
 ^^^^^^^^^^^^
+
+The QuailsConfig class configures the question answering pipeline by reading the user's prefences from ``config/configquails``.  
 
 How to add NLP Services to the Quails Server
 ============================================
