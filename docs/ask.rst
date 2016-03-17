@@ -12,7 +12,7 @@ Configuration
 .. figure:: images/configfile.png
 	:align: center
 	:alt: Quails configuration file
-	:scale: 65
+	:scale: 75
  	Quails configuration file
 
 .. figure:: images/question_capture.png
