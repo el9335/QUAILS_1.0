@@ -12,6 +12,7 @@ Quails Question Answering Framework
    :align:  left
 
 |
+|
 | Quails Documentation
 ==================================
 Welcome to the documentation pages for the QUAils Question Answering framework.  This project is meant to provide a basis for the research and implementation of a cognitive domain-specific question answering system. 
@@ -22,6 +23,7 @@ Welcome to the documentation pages for the QUAils Question Answering framework. 
 * :ref:`Introduction <intro>`
 * :ref:`Architecture Overview <overview>`
 * :ref:`Installation <install>`
+* :ref:`Asking a Question <ask>`
 * :ref:`Quails Objects <objects>`
 * :ref:`Adding a New NLP Service <newservice>`
 * :ref:`Next Steps <nextsteps>`
