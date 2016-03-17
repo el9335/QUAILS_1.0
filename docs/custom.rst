@@ -58,7 +58,7 @@ In this tutorial, we will walk through the process of adding an NLTK function ca
 
 .. figure:: images/npfun.png
 	:align: center
-
+	:scale: 50
 
 2.  Add the function name to the list of valid pipelines in ``quails.py``
 
@@ -69,6 +69,7 @@ In this tutorial, we will walk through the process of adding an NLTK function ca
 
 .. figure:: images/npinput.png
 	:align: center
+	:scale: 50
 
 Currently, there is no way to streamline this process, but using this guide should make it fairly simple to introduce new NLP functionality to the system.  
 
