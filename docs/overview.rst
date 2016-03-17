@@ -16,6 +16,6 @@ This page provides multiple views of the Quails Question Answering Framework.
 .. figure:: images/QuailsContainer.png
 	:align: center
 	:alt: Container View
-	:scale: 75
+	:scale: 65
 
 	Container view of Quails framework
