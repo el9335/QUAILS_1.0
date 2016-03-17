@@ -1,5 +1,5 @@
-.. _config:
+.. _custom:
 
 ==================
-Configuring Quails
+Customizing Quails
 ==================

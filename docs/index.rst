@@ -21,7 +21,7 @@ Welcome to the documentation pages for the QUAils Question Answering framework. 
 * :ref:`Introduction <intro>`
 * :ref:`Installation <install>`
 * :ref:`Asking a Question! <ask>`
-* :ref:`Customizing Quails <config>`
+* :ref:`Customizing Quails <custom>`
 * :ref:`Architecture Overview <overview>`
 
 | 
