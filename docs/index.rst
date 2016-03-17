@@ -25,7 +25,7 @@ Welcome to the documentation pages for the QUAils Question Answering framework. 
 * :ref:`Quails Objects <objects>`
 * :ref:`Adding a New NLP Service <newservice>`
 * :ref:`Next Steps <nextsteps>`
-* :ref:`About the Author <author>`
+.. * :ref:`About the Author <author>`
 
 | 
 
