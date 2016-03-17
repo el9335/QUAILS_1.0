@@ -11,8 +11,6 @@ Quails Question Answering Framework
 .. figure:: images/quails.gif 
    :align:  left
 
-|
-|
 | Quails Documentation
 ==================================
 Welcome to the documentation pages for the QUAils Question Answering framework.  This project is meant to provide a basis for the research and implementation of a cognitive domain-specific question answering system. 
