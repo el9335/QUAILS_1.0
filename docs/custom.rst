@@ -15,11 +15,30 @@ Understanding ``quails.py``
 Quails Constants
 ----------------
 
+.. figure:: images/QuailsConstants.png
+	:align: center
+
 NLP Data Structures
 -------------------
+
+.. figure:: images/QuailsValidPipelines.png
+	:align: center
+
+.. figure:: images/QuailsNLPInputTypes.png
+	:align: center
+
 
 Classification Data Structure
 -----------------------------
 
+.. figure:: images/QuailsLiClasses.png
+	:align: center
+
 Quails Objects
 --------------
+
+Question
+^^^^^^^^
+
+QuailsConfig
+^^^^^^^^^^^^
