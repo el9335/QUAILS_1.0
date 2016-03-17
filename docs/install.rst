@@ -6,7 +6,7 @@ Installation
 
 This page will guide you through installing the Quails dependencies on a unix-based operating system.  Quails currently only supports python 2.7.6.  The next iteration will automatically install all dependencies.
 
-These instructions were recorded over the process of development, but have not been tested on a fresh system.  If you run into any errors during the process, please send me an email at leblanc at drexel dot edu.
+These instructions were recorded over the process of development, but have not been tested on a fresh system.  If you run into any errors during the process, please send me an email at ``leblanc at drexel dot edu``.
 
 1.  Install pip
 ::
@@ -63,7 +63,7 @@ Something in the nltk download script causes it to fail, so if/when it happens, 
 	cd corenlp-python.git
 	sudo python setup.py install
 
-11. Install the Stanford Core NLP Jars (sudo apt-get install wget if not already installed)
+11. Install the Stanford Core NLP Jars (``sudo apt-get install wget`` if not already installed)
 ::
 
 	wget http://nlp.stanford.edu/software/stanford-core-nlp-full-2014-08-27.zip
