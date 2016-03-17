@@ -38,6 +38,8 @@ Classification Data Structure
 Quails Objects
 --------------
 
+
+
 Question
 ^^^^^^^^
 
@@ -51,8 +53,12 @@ In this tutorial, we will walk through the process of adding an NLTK function ca
 
 1.  Add the function to ``nltkfuns.py``
 
+.. figure:: images/npnew.png
+	:align: center
+
 .. figure:: images/npfun.png
 	:align: center
+
 
 2.  Add the function name to the list of valid pipelines in ``quails.py``
 
