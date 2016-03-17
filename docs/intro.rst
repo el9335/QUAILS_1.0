@@ -17,7 +17,7 @@ A high level example of a question answering pipeline, represented as a list, is
 7.  Rate the answers based on how likely they are to answer the question.
 8.  Return the answers and their scores to the user. 
 
-The system is comprised of two primary parts. The first component is a Flask server providing question answering pipeline services such as NLP, classification, text indexing, answer consolidation and scoring.  
+The system is comprised of two primary parts. The first component is a Flask server providing question answering pipeline services such as NLP, classification, text indexing, answer extraction, and answer scoring.  
 
 The second component is an interface program which receives a natural language question from the user and acts as a controller for the question answering pipeline in order to produce an answer.
 
