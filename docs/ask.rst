@@ -9,6 +9,13 @@ This section demonstrates how to configure Quails and ask a question.
 Configuration
 =============
 
+By modifying the configuration file in ``config/quails.config``, the user can specify which tools to use for various steps in the question answering process.  Currently, the user can specify the following:
+
+1. Which to toolkit to use for each step of the NLP pipeline, used by each component of the Quails question answering pipeline (:ref:`intro`). Current options include the Natural Language ToolKit (``nltk``) or Stanford Core NLP (``stanfuns``).
+2. Which classification algorithm to use in order to predict the type of answer required by the question.  The only option in this version is a support vector machine performing multi-class classification using a one-vs-all classification strategy.  SVMs are well known to show good performance for text classification problems.
+
+The following figure shows the anatomy of the configuration file.  The names in brackets (e.g. ``NLP``) denotes a section, and lines of form ``<property> = <value>`` denote properties and their values.  
+
 .. figure:: images/configfile.png
 	:align: center
 	:alt: Quails configuration file
