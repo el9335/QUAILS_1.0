@@ -78,6 +78,7 @@ In this tutorial, we will walk through the process of adding an NLTK function ca
 
 .. figure:: images/npnew.png
 	:align: center
+	:scale: 50
 
 .. figure:: images/npfun.png
 	:align: center
