@@ -23,6 +23,8 @@ The following figure shows the anatomy of the configuration file.  The names in 
 
  	Quails configuration file
 
+It is important to note that the NLP steps will be executed in the order that they appear in the file.  Therefore, when you add or remove steps from this section, you are changing the pipeline.  Quails will validate the specified pipeline, otherwise the system will quit.
+
 Asking a Question
 =================
 
