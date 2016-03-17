@@ -4,6 +4,13 @@
 Introduction
 ============
 
+.. figure:: images/question_capture.png
+	:align: left
+	:alt: Sample run of Quails
+	
+	Sample run of Quails
+
+
 Quails is a modular question answering framework that is meant to provide a testbed for the author's dissertation work.  It has been designed to be fully customizable at every step of a user specified question answering pipeline.
 
 A high level example of a question answering pipeline, represented as a list, is as follows:
