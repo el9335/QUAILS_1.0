@@ -4,12 +4,30 @@
 Installation
 ============
 
-This page will guide you through installing the Quails dependencies on a unix-based operating system.  Quails currently only supports python 2.7.6.  The next iteration will automatically install all dependencies.
+This page will guide you through installing Quails and its dependencies on a unix-based operating system.  Quails currently only supports python 2.7.6.  The next iteration will automatically install all dependencies.
 
-These steps were recorded over the process of development, but have not been tested on a fresh system.  If you run into any errors during the process, please send me an email at ``leblanc at drexel dot edu``.
+These instructions have been used to install Quails on a fresh Ubuntu Server 14.04.2 LTS.  If you run into any errors during the process, please send me an email at ``leblanc at drexel dot edu``.
+
+View the git project at
+::
+
+	https://github.com/el9335/QUAILS_1.0
+
+Download the project from your terminal using
+::
+
+	git clone https://github.com/el9335/QUAILS_1.0
+
+See step 9 below for command to install git if necessary.
 
 Steps to install dependencies
 =============================
+Perform these operations in the QUAILS_1.0 directory after cloning the repository.
+
+One of the dependencies requires Java, so if it is not already installed on your machine, install using the following:
+::
+
+	sudo apt-get install default-jre-<your_version> 
 
 1.  Install pip
 ::
@@ -54,7 +72,7 @@ Something in the nltk download script causes it to fail, so if/when it happens, 
 	
 	sudo pip install pexpect unidecode jsonrpclib
 
-9.  Install git
+9.  Install git (if not already installed)
 ::
 
 	sudo apt-get install git
@@ -72,6 +90,11 @@ Something in the nltk download script causes it to fail, so if/when it happens, 
 	wget http://nlp.stanford.edu/software/stanford-core-nlp-full-2014-08-27.zip
 	unzip stanford-corenlp-full-2014-08-27.zip
 
+You may need to install unzip depending on the machine you are installing on.  
+::
+
+	sudo apt-get install unzip
+
 12. Install numpy, scipy, and sklearn
 ::
 
@@ -82,3 +105,9 @@ Something in the nltk download script causes it to fail, so if/when it happens, 
 ::
 	
 	sudo pip install whoosh
+
+14. Start the server
+:: 
+	python serv.py
+
+15. Refer to the Asking a Question section of this documentation to continue working with quails.
