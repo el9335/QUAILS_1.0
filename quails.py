@@ -11,7 +11,6 @@ SERVER = "http://localhost:5000/quails"
 DELIMITER = "+"
 TRAINING_FILE = "training_questions/train_1000.label"
 
-
 # lists etc.
 # need a better solution for populating these
 valid_pipelines = [['tokens'],['tokens','pos'],
@@ -184,6 +183,7 @@ class Config(object):
 		self.config.read(self.file)
 
 		if 'NLP' in self.config:
+			
 			self.items = OrderedDict(self.config.items('NLP'))
 	
 			for item in self.items:
